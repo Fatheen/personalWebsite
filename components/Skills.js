@@ -6,15 +6,24 @@ import { FaPython } from "react-icons/fa";
 import { FaNode } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
-import { DiDjango } from "react-icons/di";
+
 import { SiMysql } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
-import { SiSqlite } from "react-icons/si";
+
 import { SiNumpy } from "react-icons/si";
 import { SiPandas } from "react-icons/si";
 import { SiTensorflow } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { FaAws } from "react-icons/fa";
+import { FaJava } from "react-icons/fa";
+import { SiJavascript } from "react-icons/si";
+import { SiFlutter } from "react-icons/si";
+import { FaUnity } from "react-icons/fa";
+import { SiUnrealengine } from "react-icons/si";
+import { SiFirebase } from "react-icons/si";
+import { SiAdobephotoshop } from "react-icons/si";
+import { SiAdobepremierepro } from "react-icons/si";
+import { SiAdobelightroom } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -42,10 +51,7 @@ const Skills = () => {
           <ul className="flex justify-start items-center flex-row flex-wrap gap-8 mb-2 bg-blue-50 p-8 rounded-2xl">
             <span className="text-blue-500 text-2xl w-full text-center md:w-fit">Backend</span>
 
-            <li className=" text-xl font-bold flex justify-center items-center flex-col">
-              <DiDjango size="40px" />
-              Django
-            </li>
+            
             <li className=" text-xl font-bold flex justify-center items-center flex-col">
               <FaPython size="40px" />
               Python
@@ -54,28 +60,32 @@ const Skills = () => {
               <FaNode size="40px" />
               Node Js
             </li>
-            <li className=" text-xl font-bold flex justify-center items-center flex-col">
-              <SiSqlite size="40px" />
-              DB sqlite
-            </li>
+            
             <li className=" text-xl font-bold flex justify-center items-center flex-col">
               <SiMysql size="40px" />
               Mysql
             </li>
             <li className=" text-xl font-bold flex justify-center items-center flex-col">
-              <FaBootstrap size="40px" />
-              Bootstrap
+              <FaJava size="40px" />
+              Java
+            </li>
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              C
+            </li>
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              C++
             </li>
           </ul>
 
           <ul className="flex justify-start items-center flex-row gap-8 flex-wrap mb-2 bg-blue-50 p-8 rounded-2xl">
             <span className="text-blue-500 text-2xl w-full text-center md:w-fit">Frontend</span>
             <li className=" text-xl font-bold flex justify-center items-center flex-col">
-              <FaReact size="40px" />
-              React
+              <SiJavascript size="40px" />
+              JavaScript
             </li>
             <li className=" text-xl font-bold flex justify-center items-center flex-col">
-              Bluma CSS
+              <FaReact size="40px" />
+              React
             </li>
             <li className=" text-xl font-bold flex justify-center items-center flex-col">
               <FaHtml5 size="40px" />
@@ -93,10 +103,7 @@ const Skills = () => {
 
           <ul className="flex justify-start items-center flex-row gap-8 flex-wrap mb-2 bg-blue-50 p-8 rounded-2xl">
             <span className="text-blue-500 text-2xl w-full text-center md:w-fit">Data Science</span>
-            <li className="text-xl font-bold flex justify-center items-center flex-col">
-              <SiTensorflow size="40px" />
-              Tensorflow
-            </li>
+           
             <li className="text-xl font-bold flex justify-center items-center flex-col">
               <SiNumpy size="40px" />
               Numpy
@@ -111,25 +118,50 @@ const Skills = () => {
           </ul>
 
           <ul className="flex items-center flex-row gap-8 flex-wrap mb-2 bg-blue-50 p-8 rounded-2xl">
-            <span className="text-blue-500 text-2xl w-full text-center lg:w-fit">Other</span>
+            <span className="text-blue-500 text-2xl w-full text-center lg:w-fit">Platforms</span>
             <li className="text-xl font-bold flex justify-center items-center flex-col">
-              C
+              <SiFlutter size="40px" />
+              Flutter / Dart
             </li>
+           <li className="text-xl font-bold flex justify-center items-center flex-col">
+              <FaUnity size="40px" />
+              Unity
+            </li> 
             <li className="text-xl font-bold flex justify-center items-center flex-col">
-              C++
-            </li>
-            <li className="text-xl font-bold flex justify-center items-center flex-col">
-              <FaGithub size="40px" />
-              git/GitHub
-            </li>
-            <li className="text-xl font-bold flex justify-center items-center flex-col">
-              
-              Analytics
+              <SiUnrealengine size="40px" />
+              Unreal Engine
             </li>
             <li className="text-xl font-bold flex justify-center items-center flex-col">
               <FaAws size="40px" />
               AWS
             </li>
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              <SiFirebase size="40px" />
+              Google Firebase
+            </li>
+          </ul>
+          <ul className="flex items-center flex-row gap-8 flex-wrap mb-2 bg-blue-50 p-8 rounded-2xl">
+          <span className="text-blue-500 text-2xl w-full text-center lg:w-fit">Tools</span>
+          <li className="text-xl font-bold flex justify-center items-center flex-col">
+              <FaGithub size="40px" />
+              Git/Github
+            </li>
+
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              <SiAdobepremierepro size="40px" />
+              Adobe Premiere Pro
+            </li>
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              <SiAdobephotoshop size="40px" />
+              Adobe Photoshop
+            </li>
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              <SiAdobelightroom size="40px" />
+              Adobe Lightroom
+            </li>
+
+
+
           </ul>
         </div>
       </div>

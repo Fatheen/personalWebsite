@@ -23,13 +23,13 @@ const Home = () => {
             <div className='flex px-4 md:py-32 mx-auto h-screen items-center'>
                 <div className='text-center mx-auto'>
                     <h1 className='text-4xl text-black font-extrabold md:text-6xl'>
-                        Prasad Chavan
+                        Mohammed Fatheen Ahmed
                     </h1>
-                    <h1 className='text-4xl text-blue-500 font-extrabold md:text-6xl'>
-                        Data Analyst
+                    <h1 className='text-md text-blue-500 font-bold md:text-6xl'>
+                        Computer Science Student
                     </h1>
                     <p className='text-sm mt-4 sm:leading-relaxed md:text-xl text-black'>
-                        Market Research Analyst, Data Science, Machine Learning Enthusiast
+                        
                     </p>
                     <div className='flex flex-wrap justify-center gap-4 mt-8 grid-cols-2'>
                         <Link href='/contact'>
@@ -39,7 +39,7 @@ const Home = () => {
                                 Contact Me
                             </a>
                         </Link>
-                        <Link href='/resume.pdf'>
+                        <Link href='/FatheenResume.pdf'>
                             <a
                                 target='_blank'
                                 rel='noopener noreferrer'

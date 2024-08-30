@@ -21,7 +21,7 @@ const Navbar = () => {
                                 <h1 className=' font-bold text-xl cursor-pointer'>
                                     <Link href='/'>
                                         <a className='text-2xl pl-8 sm:pl-0'>
-                                            Prasad<span className='text-blue-500'>Chavan</span>
+                                            Fatheen<span className='text-blue-500'> Ahmed</span>
                                         </a>
                                     </Link>
                                 </h1>
@@ -68,9 +68,10 @@ const Navbar = () => {
                                             : 'cursor-pointer hover:text-blue-500'
                                     }
                                     >
-                                        <Link id='blog' href='/blog'>
-                                            <a>Blog</a>
+                                        <Link id='contact' href='/contact'>
+                                            <a>Contact</a>
                                         </Link>
+                                       
                                     </h1>
                                 </div>
                             </div>
@@ -78,12 +79,12 @@ const Navbar = () => {
                             <div className= 'flex justify-center items-center flex-shrink-0 md:block'>
                                 <div className='flex space-x-4'>
                                     <div>
-                                        <a href='https://github.com/prasad-chavan1' target='_blank' rel='noopener noreferrer'>
+                                        <a href='https://github.com/fatheen' target='_blank' rel='noopener noreferrer'>
                                             <BsGithub className='hidden md:block' size='2rem' />
                                         </a>
                                     </div>
                                     <div>
-                                        <a href='https://www.linkedin.com/in/prasad-chavan2003/'
+                                        <a href='https://www.linkedin.com/in/fatheenillinois/'
                                             target='_blank'
                                             rel='noopener noreferrer'
                                         >

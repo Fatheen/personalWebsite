@@ -3,36 +3,35 @@ import {FiGithub} from 'react-icons/fi'
 import Image from 'next/image'
 import Head from 'next/head'
 
+
 const projects = () => {
     return (
         <div className='h-screen mx-5 sm:mx-auto pt-32'>
             <Head>
-                <title>Projects | Prasad Chavan</title>
+                <title>Projects | Mohammed Fatheen Ahmed</title>
             </Head>
             <h1 className='font-bold text-3xl text-center'></h1>
             <div className='max-w-5xl md:px-4 py-8 pb-32 mx-auto space-y-28'>
 
                 <section className='p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl'>
-                    <h1 className='font-bold text-lg md:text-xl text-blue-500 pb-4'>Animesthetic Social Media</h1>
+                    <h1 className='font-bold text-lg md:text-xl text-blue-500 pb-4'>Inventory Manager</h1>
                     <div className='grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center'>
                         <div className='aspect-w-5 aspect-h-3'>
-                            <Image src='/images/project-images/animesite.png' layout='fill' objectFit='contain' alt=''/>
+                            <img src='https://appinventiv.com/wp-content/uploads/2017/01/A-Smart-Decision-Making-with-the-Inventory-Management-App-for-Your-Business-1.png' layout='fill'  alt=''/>
                         </div>
                         <blockquote className='sm:col-span-2'>
                             <p className='text-xs md:text-base'>
-                            Animesthetic Social Media Web App project! This Django-based web application allows users to connect with friends, 
-                            share updates, and engage in social networking activities.
-                            If you would like to contribute to this project, please visit my github and start contributing. 
+                            Inventory Manager Project for Warehouses. This React web application allows users to track current inventory, add new inventory, ship products and look at back at statistics. 
                             </p>
                             <cite className='inline-flex items-center mt-8 not-italic'>
                                 <span className='hidden w-6 h-px bg-gray-400 sm:inline-block'></span>
                                 <p className='text-xs md:text-base text-gray-500 sm:ml-3'>
-                                    Python, Javascript, HTML, Django, CSS, DbSqlite
+                                    React, JavaScript, Google Firebase
                                 </p>
                             </cite>
                             <div className='flex pt-8 space-x-4'>
                                 <div>
-                                    <a href='https://github.com/prasad-chavan1/Animesthetic-Social-Media' target='_blank' rel='noopner noreferrer'>
+                                    <a href='https://github.com/Fatheen/inventoryManage' target='_blank' rel='noopner noreferrer'>
                                         <FiGithub size='30px'/>
                                     </a>
                                 </div>
