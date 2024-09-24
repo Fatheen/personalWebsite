@@ -44,27 +44,25 @@ const projects = () => {
                 </section>
 
                 <section className='p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl'>
-                    <h1 className='font-bold text-lg md:text-xl text-blue-500 pb-4'>Word Scrambler Fire Fox Extension</h1>
+                    <h1 className='font-bold text-lg md:text-xl text-blue-500 pb-4'>Music Finder</h1>
                     <div className='grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center'>
                         <div className='aspect-w-4 aspect-h-3'>
-                            <Image src='/images/project-images/ordsc.png' layout='fill' objectFit='contain' alt=''/>
+                            <img src='https://cdn-icons-png.flaticon.com/512/9448/9448086.png' layout='fill' alt=''/>
                         </div>
                         <blockquote className='sm:col-span-2'>
                             <p className='text-xs md:text-base'>
-                            Word Scramble Solver Pro is a powerful Firefox extension designed to enhance your word game experience. 
-                            Whether you're into crossword puzzles, Scrabble, or any word-related challenge, this extension has got you covered. 
-                            It simplifies the process of unscrambling letters and offers a range of features to improve your word game skills. 
+                           Music Recommendation system using Python and Flask. Uses SciKit-Learn's Nearest Neighbors Algorithm to suggest similar songs in a dataset of over a million tracks. 
                             <a className='text-blue-500' href='https://addons.mozilla.org/addon/wordy-birdy-scramble-game/'> Visit Extension</a>  
                             </p>
                             <cite className='inline-flex items-center mt-8 not-italic'>
                                 <span className='hidden w-6 h-px bg-gray-400 sm:inline-block'></span>
                                 <p className='text-xs md:text-base text-gray-500 sm:ml-3'>
-                                    Java, HTML, CSS, Bootstrape
+                                   Python, Flask, SciKit-Learn, React
                                 </p>
                             </cite>
                             <div className='flex pt-8 space-x-4'>
                                 <div>
-                                    <a href='https://github.com/prasad-chavan1/word-scramble-extension' target='_blank' rel='noopner noreferrer'>
+                                    <a href='https://github.com/Fatheen' target='_blank' rel='noopner noreferrer'>
                                         <FiGithub size='30px'/>
                                     </a>
                                 </div>
@@ -75,6 +73,70 @@ const projects = () => {
                         </blockquote>
                     </div>
                 </section>
+
+                <section className='p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl'>
+                    <h1 className='font-bold text-lg md:text-xl text-blue-500 pb-4'> AI Recipe</h1>
+                    <div className='grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center'>
+                        <div className='aspect-w-5 aspect-h-3'>
+                            <img src='https://res.cloudinary.com/postman/image/upload/t_team_logo/v1655212273/team/bbdaca99ba1637cf9eda51b963caeb078f040ad4b4091aec9d4c9593bfab8a3f.png' layout='fill'  alt=''/>
+                        </div>
+                        <blockquote className='sm:col-span-2'>
+                            <p className='text-xs md:text-base'>
+              Full-stack web application that takes in pictures of ingredients and provides recipes that can be created using a combination of those ingredients using Node.js, express and Spoonacular API. 
+                            </p>
+                            <cite className='inline-flex items-center mt-8 not-italic'>
+                                <span className='hidden w-6 h-px bg-gray-400 sm:inline-block'></span>
+                                <p className='text-xs md:text-base text-gray-500 sm:ml-3'>
+                                    Node.js, Express, React, Google Cloud
+                                </p>
+                            </cite>
+                            <div className='flex pt-8 space-x-4'>
+                                <div>
+                                    <a href='https://github.com/Fatheen/Fatheen' target='_blank' rel='noopner noreferrer'>
+                                        <FiGithub size='30px'/>
+                                    </a>
+                                </div>
+                                {/* <div> */}
+                                {/*     <HiOutlineExternalLink size='30px'/> */}
+                                {/* </div> */}
+                            </div>
+                        </blockquote>
+                    </div>
+                </section>
+
+
+                <section className='p-4 md:p-8 bg-gray-100 rounded-lg shadow-2xl'>
+                    <h1 className='font-bold text-lg md:text-xl text-blue-500 pb-4'>Bike Path</h1>
+                    <div className='grid grid-cols-1 gap-0 sm:gap-8 md:grid-cols-3 items-center'>
+                        <div className='aspect-w-5 aspect-h-3'>
+                            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9X6X1wUmRDKOXGPC6WiPA8LdC7-bt9F_sOA&s' layout='fill'  alt=''/>
+                        </div>
+                        <blockquote className='sm:col-span-2'>
+                            <p className='text-xs md:text-base'>
+                            a biking navigation app using React and JavaScript, integrating OpenRouteService API for route
+ calculation and Mapbox for interactive maps.
+                            </p>
+                            <cite className='inline-flex items-center mt-8 not-italic'>
+                                <span className='hidden w-6 h-px bg-gray-400 sm:inline-block'></span>
+                                <p className='text-xs md:text-base text-gray-500 sm:ml-3'>
+                                    React, JavaScript, Google Firebase
+                                </p>
+                            </cite>
+                            <div className='flex pt-8 space-x-4'>
+                                <div>
+                                    <a href='https://github.com/Fatheen/' target='_blank' rel='noopner noreferrer'>
+                                        <FiGithub size='30px'/>
+                                    </a>
+                                </div>
+                                {/* <div> */}
+                                {/*     <HiOutlineExternalLink size='30px'/> */}
+                                {/* </div> */}
+                            </div>
+                        </blockquote>
+                    </div>
+                </section>
+
+               
             </div>
         </div>
     )

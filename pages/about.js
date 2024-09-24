@@ -79,13 +79,13 @@ const About = () => {
                   I am pursuing my BS in Computer Science at the University of Illinois. 
                   
                   Most of
-                  my experience is in full stack development and app developement. Check out some of my work!
+                  my experience is in full stack app development and machine learning. Check out some of my work!
                 
                 </p>
                 <p className="text-left font-normal mb-5 flex-wrap"></p>
                 <p className="text-left font-normal mb-5 flex-wrap">
                   In my free time, I love to learn new technologies and keep
-                  up-to-date with full stack developement. I use tech to create projects that help me with my interests outside of programming. I
+                  up-to-date with the latest advancements in the industry. I use tech to create projects that help me with my interests outside of programming. I
                   love to go on long distance bike rides, catch up on a good show, or take time to workout.
                 </p>
               </motion.div>
